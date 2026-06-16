@@ -9,4 +9,4 @@
 
 ?>
 
-<p>soy la pagina principal</p>
+<p class="h1">soy la pagina principal</p>
