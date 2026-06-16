@@ -1,0 +1,10 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-link.dropdown-toggle.show .bi.bi-chevron-down::before {
+    transform: rotate(180deg);
+  }
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-around;
+  }
