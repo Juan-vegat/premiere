@@ -9,25 +9,9 @@
 
 ?>
 
-<p class="h1">soy la pagina principal</p>
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+<?php include get_template_directory() . '/assets/modulos/modulo-post/loop-mp-hero.php'; ?>
+<section class="ms-5 ps-3">
+    <?php include get_template_directory() . '/assets/modulos/modulo-post/loop-mp-1.php'; ?>
+    <?php include get_template_directory() . '/assets/modulos/modulo-post/loop-mp-2.php'; ?>
+    <?php include get_template_directory() . '/assets/modulos/modulo-post/loop-mp-3.php'; ?>
+</section>
